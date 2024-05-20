@@ -29,6 +29,8 @@
         - nomes das classes, funções, variáveis, id´s, sempre em inglês
         - avalie outros códigos antes de fazer o seu, para ver e tentar manter um 
             padrão alinhado com os outros devs do time
+        - criar a pasta Images na raiz contendo as imagens separadas pelo nome da 
+            imagem + _ + onde e usado (ex: logo_login) 
     
     -> Github:
         - o nome do commit deve se basear na alteração:
