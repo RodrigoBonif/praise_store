@@ -4,7 +4,7 @@
         - usar as tags com mais semántica possível, sendo elas <header> para cabeçalho, 
             <footer> para o footer e etc..
         - não colocar estilo inline para CSS, fazer todo o css no seu devido arquivo
-        - usar classe para CSS e id para o Javascript, sendo o id em camelCase e a 
+        - usar classe para CSS e ID para o Javascript, sendo o id em camelCase e a 
             classe separada com hífen (exemplo-de-nome)
         - não utilizar scripts dentro do html, deixar separado na pasta Scripts
         - nomear o arquivo HTML com a primeira letra maiúscula e sendo referente a tela
