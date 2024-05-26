@@ -37,26 +37,17 @@ body{
     margin-left: 345px;
 }
 
-.enter {
-    align-content: center;
-    color: #E3E0E0;
-    width: 200px;
-    height: 60px;
-    border-radius: 25px;
-    font-size: 16px;
-    border: 5px solid transparent;
-    color: #553324;
-}
-
-.register {
-    align-content: center;
-    font-size: 16px;
+.login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
     border-radius: 25px;
     width: 200px;
     height: 60px;
-    color: #E3E0E0;
-    border: 5px solid transparent;
+    background-color: #E3E0E0;
     color: #553324;
+    text-decoration: none;
 }
 
 .button-container {
