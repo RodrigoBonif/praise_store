@@ -40,4 +40,4 @@
             exemplos: new: página de Login
                       feat: adicionar filtro de marca na Home
                       bug: login não cadastra no localStorage
-        - todos as altrações no código devem passar pelo líder do time, no caso eu (Rodrigo)
+            - todos as altrações no código devem passar pelo líder do time, no caso eu (Rodrigo)
