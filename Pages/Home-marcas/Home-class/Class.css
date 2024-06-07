@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E3DFDF;
+}
+
+.container-home {
+    width: 70vw;
+    left: 20vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-home {
+    padding: 0 5vw;
+    width: 100%;
+    height: 100px;
+    background-color: #D6CDCD;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sidebar-home {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background-color: #D6CDCD;
+    box-shadow: 4px 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .logo-sidebar {
+        scale: 0.5;
+        margin-top: -50px;
+    }
+
+    .select-filter {
+        width: 165px;
+        padding: 5px;
+        border: none;
+        border-radius: 7px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        background-color: #553324;
+        color: #fff;
+    }
+}
+
+.navigation-home {
+    width: 60vw;
+    padding: 0 2.5vw;
+    height: 45px;
+    background-color: #E7E3E3;
+    box-shadow: 0px 0px 0px 15px #D6CDCD;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    input {
+        border: none;
+        width: 100%;
+        height: 20px;
+        padding: 5px;
+        background-color: transparent;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    input::placeholder {   
+        color: #553324;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    input:focus {
+        outline: none;
+    }
+    input:focus::placeholder {
+        color: transparent;
+    }
+}
+
+.shirts-container {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .shirts {
+        width: 415px;
+        height: 390px;
+        margin: 15px;
+        background-color: #D6CDCD;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
