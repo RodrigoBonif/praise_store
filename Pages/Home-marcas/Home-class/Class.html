@@ -19,6 +19,7 @@
 
         <nav class="navigation-home">
             <input type="text" placeholder="Busque peças para enriquecer seu armário!"></nav>
+            
         <main>
             <div class="shirts-container">
                 <div class="shirts"><img src="/Images/camiseta-class-chair.png"></div>
@@ -28,10 +29,36 @@
         </main>
     </div>
     
-
     <aside class="sidebar-home">
-        <img src="../../Images/logo-login.png" class="logo-sidebar">
-        <button class="select-filter">Selecionar filtro ↓</button>
+        <img src="/Images/logo-login.png" class="logo-sidebar">
+        <div class="select-container">
+            <button class="select-filter" onclick="addEventListener">Selecionar filtro ↓</button>
+            <div class="select-container-titulo">Tamanhos:</div>         ↑ 
+            <ul class="select-container-texto"> 
+                <li class="space_texto">P</li>
+                <li class="space_texto">M</li>
+                <li class="space_texto">G</li>
+                <li class="space_texto">GG</li>
+                <li class="space_texto">EXG1</li>
+                <li class="space_texto">EXG2</li>      
+            </ul>
+        </div>  
     </aside>
+    
+    <script>
+        function toggleFilter() {
+            const filterContainer = document.querySelector('.select-container');
+            const filterButton = document.querySelector('.select-filter');
+            filterContainer.classList.toggle('active');
+            filterButton.classList.toggle('active');
+            
+            if (filterButton.classList.contains('active')) {
+                filterButton.textContent = 'Ocultar filtro ↑';
+            } else {
+                filterButton.textContent = 'Selecionar filtro ↓';
+            }
+        }
+    </script>
+
 </body>
 </html>
