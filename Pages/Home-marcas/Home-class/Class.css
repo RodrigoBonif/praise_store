@@ -70,27 +70,45 @@ body {
         border-radius: 3px;
         background-color: #EBEBEB;
         color: #B4B4B4;
-
+        display: none;
     }
         
 .select-container-titulo{
     padding: 20px 25px 20px 45px;
     font-size: 20px;
+    margin-top: 30px;
+    position: relative;
     display: none;
 }
 
 .select-container-texto{
     list-style: none;  
     font-size: 25px;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-bottom: 370px;
     display: none;
 }  
 
 .space_texto{
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.imagemCB{
+    margin-left: 50px;
+    width: 15px;
+    height: 15px;
+    border: none;
+}
+
+.checkbox {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
 
 .select-container.active{
     display: block;
@@ -103,7 +121,6 @@ body {
 .select-container-texto.active{
     display: block;
 }
-
 
 .navigation-home {
     width: 60vw;
@@ -152,7 +169,7 @@ input:focus::placeholder {
 }
 
 .shirts {
-    width: 550px;
+    width: calc(33.333% - 30px);
     height: 470px;
     margin: 15px;
     background-color: #D6CDCD;
