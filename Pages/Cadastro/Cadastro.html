@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="Cadastro.css">
 </head>
 <body>
-    <form class="Cadastro">
+    <form class="Cadastro" onsubmit="onSubmit()">
         <div class="quadrado1">
  
             <img src="../../Images/fundo-login.png" class="fundo">
@@ -20,9 +20,24 @@
             <input type="text" class="complemento" placeholder=" Complemento:">
             <input type="text" class="email" placeholder=" Email:">
             <input type="text" class="senha" placeholder=" Defina sua senha:">
-            <input type="button" class="terminar" value="Terminar cadastro">
-
+            <input type="submit" class="terminar" value="Terminar cadastro">
           </div>
         </div>  
       </form>
+      <script src="../../Scripts/StorageHelper.js"></script>
+      <script>
+        const onSubmit = () => {
+          const  nameValue = document.querySelector(".nome").value;
+          const  emailValue = document.querySelector(".email").value;
+          const  senhaValue = document.querySelector(".senha").value;
+
+          const registerValues = {
+              name: nameValue,
+              email: emailValue,
+              password: senhaValue
+          }
+
+          saveItemsInLocalStorage("LoginValues", registerValues);
+        };
+      </script>
 </body>
