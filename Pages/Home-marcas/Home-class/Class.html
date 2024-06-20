@@ -33,16 +33,21 @@
         <img src="/Images/logo-login.png" class="logo-sidebar">
         <button class="select-filter">Selecionar filtro ↓</button>
         <div class="select-container">
-            
-            <div class="select-container-titulo">Tamanhos:</div>     
-            <ul class="select-container-texto"> 
-                <li class="space_texto">P<button class="checkbox"><img src="/Images/checkboxAberto.png" alt="checkbox Aberto(Não marcado)" class="imagemCB"></button> </li>
-                <li class="space_texto">M<button class="checkbox"><img src="/Images/checkboxAberto.png" alt="checkbox Aberto(Não marcado)" class="imagemCB"></button> </li>
-                <li class="space_texto">G<button class="checkbox"><img src="/Images/checkboxAberto.png" alt="checkbox Aberto(Não marcado)" class="imagemCB"></button> </li>
-                <li class="space_texto">GG<button class="checkbox"><img src="/Images/checkboxAberto.png" alt="checkbox Aberto(Não marcado)" class="imagemCB"></button> </li>
-                <li class="space_texto">EXG1<button class="checkbox"><img src="/Images/checkboxAberto.png" alt="checkbox Aberto(Não marcado)" class="imagemCB"></button> </li>      
-                <li class="space_texto">EXG2<button class="checkbox"><img src="/Images/checkboxAberto.png" alt="checkbox Aberto(Não marcado)" class="imagemCB"></button> </li>
+            <div class="select-container-title">Tamanhos:</div>     
+            <ul class="select-container-text"> 
+                <li class="space_text">P<button class="checkbox"><img src="/Images/checkboxAberto.png" alt="checkbox Aberto(Não marcado)" class="imageCB"></button> </li>
+                <li class="space_text">M<button class="checkbox"><img src="/Images/checkboxAberto.png" alt="checkbox Aberto(Não marcado)" class="imageCB"></button> </li>
+                <li class="space_text">G<button class="checkbox"><img src="/Images/checkboxAberto.png" alt="checkbox Aberto(Não marcado)" class="imageCB"></button> </li>
+                <li class="space_text">GG<button class="checkbox"><img src="/Images/checkboxAberto.png" alt="checkbox Aberto(Não marcado)" class="imageCB"></button> </li>
+                <li class="space_text">EXG1<button class="checkbox"><img src="/Images/checkboxAberto.png" alt="checkbox Aberto(Não marcado)" class="imageCB"></button> </li>      
+                <li class="space_text">EXG2<button class="checkbox"><img src="/Images/checkboxAberto.png" alt="checkbox Aberto(Não marcado)" class="imageCB"></button> </li>
             </ul>
+            <div class="range-container">
+                <div class="slider-track"></div>
+                <input type="range" id="rangeMin" value="0" min="0" max="1500">
+                <input type="range" id="rangeMax" value="1500" min="0" max="1500">
+                <span id="rangeOutput">R$0 - R$1500</span>
+            </div>
         </div>  
     </aside>
 
