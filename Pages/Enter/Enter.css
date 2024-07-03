@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E3E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../../Images/fundo-login.png");
+    background-repeat: no-repeat;
+    background-position: -5px 500px;
+    background-size: 100%;
+}
+
+.quadrado1{
+    background-color: rgba(214, 205, 205, 0.4);
+    border-radius: 25px;
+    width: 750px;
+    height: 500px;
+    padding: 40px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo-enter {
+    width: 120px;
+    height: 150px;
+}
+
+.welcome-enter {
+    color: #553324;
+    font-size: 25px;
+}
+
+.input-enter {
+    width: 350px;
+    height: 60px;
+    background-color: #E3E0E0;
+    border-radius: 20px;
+    border: none;
+    text-indent: 20px;
+}
+
+.input-enter::placeholder {
+    color: #553324;
+}
+
+.enter {
+    width: 200px;
+    height: 50px;
+    background-color: #553324;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+}

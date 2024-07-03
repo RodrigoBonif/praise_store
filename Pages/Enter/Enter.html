@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="Enter.css">
+</head>
+<body>
+    <div class="quadrado1">
+        <img src="../../Images/logo-login.png" class="logo-enter">
+        <p class="welcome-enter">Que bom ter você de volta!</p>
+        <input type="text" class="input-enter name" placeholder=" Nome: ">
+        <input type="password" class="input-enter password" placeholder=" Senha: ">
+        <input type="button" onclick="onSubmit()" class="enter" value="Entrar">
+    </div>
+      <script src="../../Scripts/StorageHelper.js"></script>
+      <script>
+        const onSubmit = () => {
+          const nameValue = document.querySelector(".name").value;
+          const senhaValue = document.querySelector(".password").value;
+          const { name, password } = getLocalStorageItems("LoginValues");
+
+          if (nameValue === name && senhaValue === password) {
+            window.location.pathname ="Pages/Home/Home.html"
+          }
+        };
+      </script>
+</body>
