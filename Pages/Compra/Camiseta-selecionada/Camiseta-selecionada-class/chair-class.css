@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E3DFDF;
+}
+
+.container-home {
+    width: 70vw;
+    left: 20vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-home {
+    padding: 0 5vw;
+    width: 100%;
+    height: 100px;
+    background-color: #D6CDCD;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sidebar-home {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background-color: #D6CDCD;
+    box-shadow: 4px 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-sidebar {
+    scale: 0.5;
+    margin-top: -50px;
+}
+
+.shirts {
+    width: 750px;
+    height: 650px;
+    margin: 15px;
+    background-color: #D6CDCD;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shirts-container {
+    width: 85vw;
+    margin-top: 90px;
+    margin-left: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shirts-container-compra {
+    color: #553324;
+    width: 450px;
+    height: 650px;
+    margin-right: 400px;
+    background-color: #D6CDCD;
+    border-radius: 20px;
+}
+.shirts-container-text{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.shirts-container-complete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #553324;
+    border-radius: 20px;
+    background-color: #553324;
+    margin-left: 3px;
+    width: 381px;
+    height: 78px;
+    color: #FFFF;
+    font-size: 30px;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.left-column {
+    text-align: center;
+    border: 2px solid #553324;
+    border-radius: 20px;
+    background-color: #553324;
+    color: #FFFF;
+    font-size: 25px;
+    flex: 1;
+    
+    margin-right: 10px;
+}
+
+.right-column {
+    display: flex;
+    justify-content: space-around;
+    flex: 2;
+}
+
+.size-option {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #D6CDCD;
+    color: #553324;
+}
+
+.shirts-container-tam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 320px;
+    margin-right: 100px;
+    border: 2px solid ;
+    border-radius: 20px;
+    background-color: #553324;
+    color: #FFFF;
+    font-size: 25px;
+}
+
+.shirts-container-select{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px
+}
