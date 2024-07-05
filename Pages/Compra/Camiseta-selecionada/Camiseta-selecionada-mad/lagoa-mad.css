@@ -142,3 +142,10 @@ body {
     color: #FFFF;
     font-size: 30px;
 }
+
+.img-logout{
+    position: absolute;
+
+    left: 98%;
+    top: 4%;
+}

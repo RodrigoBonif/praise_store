@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="centro-class.css">
+    <link rel="stylesheet" href="carrinho.css">
     <title>Home</title>
 </head>
 <body>
@@ -16,33 +16,31 @@
             <a href="/Pages/Home-marcas/home-pace/pace.html"><img src="/Images/logo-pace.png" alt="Imagem da logo da Pace"></a>
             <a href="/Pages/Home-marcas/home-mad/mad.html"><img src="/Images/logo-mad.png" alt="Imagem da logo da mad"></a>
         </header>
+    </div>
 
-        <main>
-            <div class="shirts-container">
-                <div class="shirts"><img src="/Images/TL/camiseta-class-centro-s.png"></div>
-                <div class="shirts-container-compra">
-                    <h2 class="shirts-container-text">Camiseta Class “Centro” Branca <br><br> R$ 189,90</h2>
-                    <div class="column">
-                        <div class="left-column">Tamanho</div>
-                        <div class="right-column">
-                            <span class="size-option">P</span>
-                            <span class="size-option">M</span>
-                            <span class="size-option">G</span>
-                            <span class="size-option">GG</span>
-                            <span class="size-option">EXG1</span>
-                            <span class="size-option">EXG2</span>
-                        </div>
-                    </div>
-                    <a href="../../../Carrinho/Carrinho.html" class="shirts-container-complete">Finalizar compra</a>
-                </div>
+    <div class="centro-carrinho">
+        <div class="line-item">
+            <div class="frame-item">
+            <img src="../../Images/camiseta-mad-lagoa.png">
             </div>
-        </main>
+
+            <h2 id="nome-camisa"> Camiseta Mad Enlatados "Lagoa" </h2>
+            <h2 id="preco-camisa"> R$239,90 </h2>
+
+            <button class="comprar-separado">
+                Comprar Separado
+            </button>
+
+            <img id="image-lixo" src="../../Images/lixeira.png" alt="lixo">
+        </div>
+
+        <button class="comprar-carrinho">
+            Finalizar Compra
+        </button>
     </div>
     
     <aside class="sidebar-home">
         <a href="/Pages/Home/Home.html"><img src="/Images/logo-login.png" class="logo-sidebar"></a>
     </aside>
-
-    <script src="High.js"></script>
 </body>
 </html>

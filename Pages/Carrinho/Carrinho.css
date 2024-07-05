@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E3DFDF;
+}
+
+.container-home {
+    width: 70vw;
+    left: 20vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-home {
+    padding: 0 5vw;
+    width: 100%;
+    height: 100px;
+    background-color: #D6CDCD;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sidebar-home {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background-color: #D6CDCD;
+    box-shadow: 4px 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-sidebar {
+    scale: 0.5;
+    margin-top: -50px;
+}
+
+.centro-carrinho{
+    width: 1100px;
+    height: 75vh;
+
+    background-color: #D6CDCD;
+    position: fixed;
+    display: flex;
+    left: 25%;
+    top: 17%;
+
+    border-radius: 20px;
+}
+
+.line-item{
+    width: 1000px;
+    height: 10%;
+
+    background-color: #EBEBEB;
+    position: relative;
+    display: flex;
+    left: 4.5%;
+    top: 5%;
+
+    border-radius: 10px;
+}
+
+#nome-camisa{
+    color: #553324;
+
+    position: relative;
+    display: flex;
+    left: 10%;
+    top: 30%;
+}
+
+#preco-camisa{
+    color: #553324;
+
+    position: relative;
+    display: flex;
+    left: 25%;
+    top: 30%;
+}
+
+
+.frame-item
+{
+    width: 60px;
+    height: 60px;
+
+    position: relative;
+    display: flex;
+    left: 5%;
+    top: 8px;
+    
+    background-color: #D6CDCD;
+    border-radius: 5px;
+}
+
+.comprar-separado{
+    width: 90px;
+    height: 50px;
+
+    position: relative;
+    display: flex;
+    left: 30%;
+    top: 8px;
+
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+    background-color: #553324;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.comprar-carrinho{
+    width: 7vw;
+    height: 50px;
+
+    margin-left: 900px;
+    position: fixed;
+    display: flex;
+    
+    top: 83%;
+
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+    background-color: #553324;
+    border-radius: 10px;
+    border-style: none;
+}
+
+#image-lixo{
+    width: 30px;
+    height: 30px;
+
+    position: relative;
+    display: flex;
+    left: 32%;
+    top: 20px;
+}

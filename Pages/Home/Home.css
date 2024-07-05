@@ -116,3 +116,10 @@ body {
         justify-content: center;
     }
 }
+
+.img-logout{
+    position: absolute;
+
+    left: 98%;
+    top: 4%;
+}
